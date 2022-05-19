@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+      --beige:hsl(0, 0%, 96%);
+    --darkbarley: hsla(330, 5%, 71%);
+    --navBkgrnd:hsl(45, 8%, 31%);
+    --smBkgrnd:hsl(20, 63%, 91%); 
+    --medBkgrnd:hsl(15, 20%, 87%);
+    --LgBkgrnd:hsl(20, 20%, 70%);
+    --spanNames:hsl(187, 72%, 31%);
+    --linkText1:hsl(180, 100%, 50%);
+    
+
+  }
+
+body {
+    font-family: 'Rosario', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+     
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navBkgrnd);
+    padding-top: 1rem;
+    font-weight:300;
+    
+}
+
+.nbar-title {
+    font-size: 1.25rem;
+    margin: .25rem .5rem;
+    color: var(--beige);
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    padding-right: .7rem;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: var(--beige);
+    padding: .6rem;
+    font-size: medium;
+    font-weight: 300;
+
+
+}
+
+.navbar-links li:hover {
+    background-color: rgb(235, 219, 219);
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--beige);
+    border-radius: 10px;
+}
+
+/* _________Mobile Starter Level_______________________ */
+
+
+#introH1{
+    text-align: center;
+    font-size:1.9rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+   
+}
+#h2frdStory{
+text-align: center;
+}
+
+
+.boxText{
+    font-size: 1rem;
+    margin:0 auto;
+    width:70%;
+    }
+
+    .boxText1{
+        background-color: var(--navBkgrnd);
+        color: var(--beige);
+        padding: 0 2rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin: 3rem 0;
+        font-weight: 300;
+        
+    }
+
+    .boxText1 a{
+        color: hsl(29, 94%, 50%);
+        text-decoration:none;
+    }
+
+
+    
+    .boxText2 a{
+      text-decoration:none;
+      font-style: italic;
+      color: hsl(180, 86%, 26%);
+    }
+    
+    .boxText span{
+        
+        color:var(--spanNames);
+       
+        
+    }
+    .boxImage{
+        text-align: center;
+        margin:1rem;
+       
+    }
+.section{
+    display:flex;
+    flex-direction: column;
+    gap:.5rem 0;
+}
+
+.section2 {
+    flex-direction: column-reverse;
+}
+
+.section4 {
+    flex-direction: column-reverse;
+}  
+
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display:flex;
+    }
+
+   
+}
+@media (min-width: 901px){
+
+    body{
+        background-color:var(--medBkgrnd);
+        width:66%;
+        margin:0 auto;
+        font-size: larger;
+        
+         }   
+    .section{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+       align-items:center;
+       text-align: center;
+       gap:.4rem 0;
+    }
+
+    .boxText1
+       {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        max-width:700px;
+        text-align: center;
+        }
+}
+
+@media (min-width: 1200px){
+
+    body{
+        background-color:var(--LgBkgrnd);
+        width:50%;
+        margin:0 auto;
+        
+        
+         }   
+    .section{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        text-align: center;
+        gap:.5rem 0;
+      
+        
+       
+    }
+
+    .boxText1{
+        font-size: 1.4rem;
+        line-height: 2rem;;
+        
+                     
+        }
+        
+}
+
