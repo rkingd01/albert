@@ -128,9 +128,11 @@ text-align: center;
         line-height: 1.4rem;
         margin: 3rem 0;
         font-weight: 300;
-        
+               
     }
-
+    .boxText1 a{
+        color:lime;
+    }
 
 
     
