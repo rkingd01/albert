@@ -167,6 +167,10 @@ text-align: center;
     flex-direction: column-reverse;
 }  
 
+.section8{
+    border: .2rem ridge red;
+}
+
 /* ---------Medium screen size follows------------------- */
 
 
