@@ -7,9 +7,11 @@
     --navBkgrnd:hsl(45, 8%, 31%);
     --smBkgrnd:hsl(20, 63%, 91%); 
     --medBkgrnd:hsl(15, 20%, 87%);
-    --LgBkgrnd:hsl(20, 20%, 70%);
+    --LgBkgrnd:hsl(16, 20%, 85%);
     --spanNames:hsl(187, 72%, 31%);
     --linkText1:hsl(180, 100%, 50%);
+    --links:hsl(139, 13%, 25%);
+
     
 
   }
@@ -27,7 +29,7 @@ body {
 }
 
 body a{
-    color: hsl(59, 93%, 52%);
+    color: var(--links);
    text-decoration:none;
 }
 
@@ -97,7 +99,7 @@ body a{
     border-radius: 10px;
 }
 
-/* _________Mobile Starter Level_______________________ */
+/* _________Mobile and Base Level_______________________ */
 
 
 #introH1{
@@ -163,9 +165,7 @@ text-align: center;
     flex-direction: column-reverse;
 }  
 
-/* .section6 {
-    flex-direction: column-reverse;
-}   */
+/* ---------Medium screen size follows------------------- */
 
 
 @media (max-width: 600px) {
