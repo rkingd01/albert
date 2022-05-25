@@ -30,7 +30,7 @@ body {
 
 body a{
     color: var(--links);
-   text-decoration:none;
+    text-decoration:none;
 }
 
 
@@ -44,7 +44,7 @@ body a{
     font-weight:300;
     
 }
-
+/* ----------Nav Bar-------------------- */
 .nbar-title {
     font-size: 1.25rem;
     margin: .25rem .5rem;
@@ -117,7 +117,7 @@ text-align: center;
 .boxText{
     font-size: 1rem;
     margin:0 auto;
-    width:70%;
+    width:90%;
     }
 
     .boxText1{
