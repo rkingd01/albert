@@ -117,7 +117,8 @@ text-align: center;
 .boxText{
     font-size: 1rem;
     margin:0 auto;
-    width:90%;
+    width:86%;
+    text-align: justify;
     }
 
     .boxText1{
@@ -153,6 +154,8 @@ text-align: center;
         margin:1rem;
        
     }
+
+
 .section{
     display:flex;
     flex-direction: column;
@@ -168,7 +171,8 @@ text-align: center;
 }  
 
 .section8{
-    text-align:left;
+    text-align: justify;
+    margin: 0 .5rem;
 
 }
 
@@ -205,6 +209,11 @@ text-align: center;
 
     .navbar-links.active {
         display:flex;
+    }
+    .section8{
+        text-align: justify;
+        
+    
     }
 
    
@@ -246,6 +255,13 @@ text-align: center;
     .section6 {
             flex-direction: row-reverse;
         }  
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1rem;
+            text-align: justify;
+        }
 }
 /* --------------------------------- */
 @media (min-width: 1200px){
