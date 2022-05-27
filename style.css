@@ -8,9 +8,9 @@
     --smBkgrnd:hsl(20, 63%, 91%); 
     --medBkgrnd:hsl(15, 20%, 87%);
     --LgBkgrnd:hsl(16, 20%, 85%);
-    --spanNames:hsl(187, 72%, 31%);
+    --spanNames:hsl(180, 14%, 28%);
     --linkText1:hsl(180, 100%, 50%);
-    --links:hsl(140, 37%, 35%);
+    --links:hsl(275, 88%, 50%);
 
     
 
@@ -104,7 +104,7 @@ body a{
 
 #introH1{
     text-align: center;
-    font-size:1.9rem;
+    font-size:1.7rem;
     font-weight: 300;
     line-height: 2.4rem;
    
@@ -132,7 +132,7 @@ text-align: center;
                
     }
     .boxText1 a{
-        color:lime;
+        color:rgb(131, 251, 131);
     }
 
 
@@ -144,22 +144,20 @@ text-align: center;
     }
     
     .boxText span{
-        
         color:var(--spanNames);
-       
-        
     }
+
+
     .boxImage{
         text-align: center;
         margin:1rem;
-       
     }
 
 
 .section{
     display:flex;
     flex-direction: column;
-    gap:.5rem 0;
+    gap:.6rem 0;
 }
 
 .section2 {
@@ -174,6 +172,12 @@ text-align: center;
     text-align: justify;
     margin: 0 .5rem;
 
+}
+.boxText8{
+        
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 /* ---------Medium screen size follows------------------- */
@@ -256,12 +260,17 @@ text-align: center;
             flex-direction: row-reverse;
         }  
 
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap:1rem;
-            text-align: justify;
-        }
+    .boxText8{
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 1.5rem;
+        width:100%;
+        
+        
+    }
+
+
 }
 /* --------------------------------- */
 @media (min-width: 1200px){
