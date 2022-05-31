@@ -101,7 +101,12 @@ body a{
 
 /* _________Mobile and Base Level_______________________ */
 
-
+h2{
+    color: crimson;
+}
+h4{
+    color:cornflowerblue;
+}
 #introH1{
     text-align: center;
     font-size:1.7rem;
