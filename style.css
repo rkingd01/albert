@@ -178,7 +178,7 @@ text-align: center;
     margin: 0 .5rem;
 
 }
-.boxText8{
+.boxText8 .boxText9{
         
     display:grid;
     grid-template-columns: 1fr;
@@ -226,8 +226,7 @@ text-align: center;
         display:flex;
     }
     .section8{
-        text-align: justify;
-        
+        text-align: justify;       
     
     }
 
@@ -277,8 +276,14 @@ text-align: center;
         grid-template-columns: 1fr 1fr;
         grid-gap: 0 1.5rem;
         width:100%;
+    }
+
+    .boxText9{
         
-        
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 1.5rem;
+        width:100%;
     }
     .boxText12{
         
