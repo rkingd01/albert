@@ -178,7 +178,13 @@ text-align: center;
     margin: 0 .5rem;
 
 }
-.boxText8 .boxText9{
+.boxText8{
+        
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.boxText9{
         
     display:grid;
     grid-template-columns: 1fr;
@@ -265,10 +271,10 @@ text-align: center;
         }
 
 
-
+/* 
     .section6 {
             flex-direction: row-reverse;
-        }  
+        }   */
 
     .boxText8{
         
