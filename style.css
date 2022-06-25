@@ -191,11 +191,18 @@ text-align: center;
     gap: 1rem;
 }
 
-.section12 .section13{
+.section12{
     text-align: justify;
     margin: 0 .5rem;
 
 }
+
+.section13{
+    text-align: justify;
+    margin: 0 .5rem;
+
+}
+
 
 /* ---------Medium screen size follows------------------- */
 
@@ -236,7 +243,7 @@ text-align: center;
     
     }
 
-    
+
 
    
 }
@@ -300,6 +307,15 @@ text-align: center;
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 0 1.5rem;
+        width:100%;
+        
+        
+    }
+
+    .boxText13{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:30 1.5rem;
         width:100%;
         
         
