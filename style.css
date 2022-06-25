@@ -319,10 +319,11 @@ text-align: center;
         align-items:center;
         text-align: center;
         gap:.5rem 0;
-      
-        
-       
     }
+
+    .section11 {
+        flex-direction: row-reverse;
+    }   
 
     .boxText1{
         font-size: 1.4rem;
