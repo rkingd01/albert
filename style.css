@@ -270,7 +270,9 @@ text-align: center;
         text-align: center;
         }
 
-
+        .section7{
+            flex-direction: row-reverse;
+        }  
 
     .section10a {
             flex-direction: row-reverse;
@@ -320,6 +322,10 @@ text-align: center;
         text-align: center;
         gap:.5rem 0;
     }
+
+    .section7{
+        flex-direction: row-reverse;
+    }  
 
     .section10a{
         flex-direction: row-reverse;
