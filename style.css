@@ -191,7 +191,7 @@ text-align: center;
     gap: 1rem;
 }
 
-.section12{
+.section12 .section13{
     text-align: justify;
     margin: 0 .5rem;
 
@@ -235,6 +235,8 @@ text-align: center;
         text-align: justify;       
     
     }
+
+    
 
    
 }
