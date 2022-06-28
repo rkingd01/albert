@@ -6,7 +6,7 @@
     --darkbarley: hsla(330, 5%, 71%);
     --navBkgrnd:hsl(45, 8%, 31%);
     --smBkgrnd:hsl(20, 63%, 91%); 
-    --medBkgrnd:hsl(15, 20%, 87%);
+    --orange:hsl(18, 85%, 51%);
     --LgBkgrnd:hsl(16, 20%, 85%);
     --spanNames:hsl(180, 14%, 28%);
     --linkText1:hsl(180, 100%, 50%);
@@ -102,7 +102,7 @@ body a{
 /* _________Mobile and Base Level_______________________ */
 
 h2{
-    color: crimson;
+    color: var(--orange);
 }
 h4{
     color:cornflowerblue;
