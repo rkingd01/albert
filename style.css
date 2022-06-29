@@ -10,7 +10,7 @@
     --LgBkgrnd:hsl(16, 20%, 85%);
     --spanNames:hsl(180, 14%, 28%);
     --linkText1:hsl(180, 100%, 50%);
-    --links:hsl(275, 88%, 50%);
+    --links:hsl(103, 93%, 21%);
 
     
 
@@ -29,7 +29,7 @@ body {
 }
 
 body a{
-    color: var(--links);
+    color:var(--links);
     text-decoration:none;
 }
 
@@ -79,7 +79,8 @@ body a{
 }
 
 .navbar-links li:hover {
-    background-color: rgb(176, 108, 108);
+    background-color: rgb(159, 98, 98);
+    
 }
 
 .toggle-button {
