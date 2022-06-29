@@ -152,7 +152,7 @@ text-align: center;
     }
     
     .boxText span{
-        color:var(--spanNames);
+        font-style:italic ;
     }
 
 
