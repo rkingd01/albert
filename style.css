@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root{
-      --beige:hsl(0, 0%, 96%);
+      --red:hsl(0, 93%, 24%);
     --darkbarley: hsla(330, 5%, 71%);
     --navBkgrnd:hsl(45, 8%, 31%);
     --smBkgrnd:hsl(20, 63%, 91%); 
@@ -39,9 +39,10 @@ body a{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--navBkgrnd);
+    background-color: var(--red);
     padding-top: 1rem;
     font-weight:300;
+    color: white;
     
 }
 /* ----------Nav Bar-------------------- */
@@ -78,7 +79,7 @@ body a{
 }
 
 .navbar-links li:hover {
-    background-color: rgb(235, 219, 219);
+    background-color: rgb(176, 108, 108);
 }
 
 .toggle-button {
@@ -95,7 +96,7 @@ body a{
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: var(--beige);
+    background-color: var(--navBkgrnd);
     border-radius: 10px;
 }
 
@@ -127,13 +128,14 @@ text-align: center;
     }
 
     .boxText1{
-        background-color: var(--navBkgrnd);
+        background-color: var(--red);
         color: var(--beige);
         padding: 0 2rem;
         font-size: 1rem;
         line-height: 1.4rem;
         margin: 3rem 0;
         font-weight: 300;
+        color: white;
                
     }
     .boxText1 a{
