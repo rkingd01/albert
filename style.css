@@ -3,7 +3,7 @@
 }
 :root{
       --red:hsl(0, 93%, 24%);
-    --darkbarley: hsla(330, 5%, 71%);
+    --darkbarley: hsl(330, 5%, 71%);
     --navBkgrnd:hsl(45, 8%, 31%);
     --smBkgrnd:hsl(20, 63%, 91%); 
     --orange:hsl(18, 85%, 51%);
