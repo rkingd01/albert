@@ -70,9 +70,9 @@ body a{
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: var(--beige);
+    color: var(--white);
     padding: .6rem;
-    font-size: large;
+    font-size: larger;
     font-weight: 300;
 
 
